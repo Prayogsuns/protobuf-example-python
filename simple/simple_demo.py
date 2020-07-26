@@ -1,9 +1,10 @@
 
 
 import simple.simple_pb2 as simple_pb2
+# from simple import simple_pb2 as simple_pb2
 
 simple_message = simple_pb2.SimpleMessage()
-simple_message.id = 123
+simple_message.id = 1234
 simple_message.is_simple = True
 simple_message.name = "This is a simple Message"
 sample_list = simple_message.sample_list
